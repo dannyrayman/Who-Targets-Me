@@ -118,6 +118,65 @@ let strings = new LocalizedStrings({
        url: 'https://twitter.com/whotargetsme'
      }
    }
+ },
+  es: {
+   who_targets_me: "¿De quién soy el blanco?",
+   loading: 'Cargando, gracias por su paciencia',
+   register: {
+     select_language: "Por favor seleccione su idioma",
+     terms: "<span>By continuing you agree to the <a href=\"https://whotargets.me/en/terms/\">terms and conditions</a> and <a href=\"https://whotargets.me/en/privacy-policy/\">privacy policy</a></span>",
+     agree: 'Acepto',
+     back: 'Volver',
+     next: 'Siguiente',
+     country: 'País',
+     enter_country: 'Por favor ingrese su país de residencia',
+     postcode: 'Código Postal',
+     enter_postcode: 'Por favor ingrese su código postal',
+     postcode_error: 'Parece que ha ingresado un código postal no válido',
+     i_am: 'Yo soy...',
+     male: 'Hombre',
+     female: 'Mujer',
+     other: 'Otro',
+     years_of_age: '¿Qué edad tiene (en años)?',
+     age: 'Edad',
+     confirming: 'Confirmando sus datos de registro',
+     request_error: 'El servidor a respondido con el siguiente mensaje:',
+     unknown_error: 'Error desconocido, ¡Si persiste por favor contactenos!',
+     share: 'Comparta Who Targets Me con sus amigos para apoyar la transparencia digital',
+     shareOnFacebook: 'Compartir en Facebook',
+     shareOnTwitter: 'Compartir en Twitter',
+     skip: 'Saltar',
+     shareFacebook: '@WhoTargetsMe esta investigando publicidad oculta, averigua de quien eres blanco https://whotargets.me/',
+     shareTwitter: '@WhoTargetsMe esta investigando publicidad oculta, averigua de quien eres blanco https://whotargets.me/',
+   },
+   results: {
+     my_constituency: 'Mi circunscripción',
+     constituency_size: 'Eres uno de %i voluntario de %s, ¿Puedes ayudarnos a alcanzar %i?',
+     constituency_size_one: 'Eres el primer voluntario de %s!. ¿Puedes ayudarnos a averiguar más?',
+     no_results_explanation: 'Who Targets Me opera en segundo plano para determinar que publicidad ves. Esta página se actualizara con estadísticas tan pronto hayamos recopilado suficientes información.'
+   },
+   links: {
+     website: {
+       title: 'Página Web',
+       url: 'https://whotargets.me'
+     },
+     terms: {
+       title: 'Términos',
+       url: 'https://whotargets.me/terms'
+     },
+     privacy: {
+       title: 'Privacidad',
+       url: 'https://whotargets.me/privacy-policy'
+     },
+     facebook: {
+       title: 'Facebook',
+       url: 'https://www.facebook.com/whotargetsme/'
+     },
+     twitter: {
+       title: 'Twitter',
+       url: 'https://twitter.com/whotargetsme'
+     }
+   }
  }
 });
 
